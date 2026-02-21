@@ -16,3 +16,27 @@ venv/
 *.swp
 *.swo
 demo_data.json
+
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+env/
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Poetry
+poetry.lock   # Normalmente SÍ se versiona, pero si hay debate, decídete.
+# .poetry/    (no suele existir)
+
+# Archivos de IDE
+.vscode/
+.idea/
+
+# Distribuciones / builds
+dist/
+build/
+*.egg-info/
